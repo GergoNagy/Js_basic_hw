@@ -76,9 +76,9 @@ console.log(animals.indexOf("hedgehog"));
 // 6.1 Create an array of 5 vegetables
 var vegetables = ["karalabe", "hagyma", "krumpli", "repa", "paradicsom"]
 // 6.2 Loop over the array and write to the console using a "while"
-var i = 4;
+var i = 0;
 var text = "";
-while (vegetables[i]) {
+while (i < vegetables[i]) {
   console.log(text+=vegetables + "\n");
   i++
 }
